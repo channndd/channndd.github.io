@@ -43,7 +43,7 @@
 
   
 
-  
+  <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script><script async data-pjax src="/js/services/txmap.js"></script>
 </head>
 <body>
 
@@ -79,10 +79,31 @@
 </a></div>
 
 
-<footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">chanyoung</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.29.1">Stellar 1.29.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+<footer class="page-footer footnote"><hr><div class="text"><p>‘<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/images/BgSub_泉此方.png" alt="泉此方" style="float: right; width: 60px; margin-left: 20px;">‘<br><span id="runtime_span"></span></p>
+<script type="text/javascript">
+    function show_runtime() {
+        window.setTimeout("show_runtime()", 1000);
+        X = new Date("2024/08/16 00:00:00"); // 网站开始运行的日期和时间
+        Y = new Date(); // 当前日期和时间
+        T = (Y.getTime() - X.getTime()); // 网站运行的总毫秒数
+        M = 24 * 60 * 60 * 1000; // 一天的毫秒数
+        a = T / M; // 总天数
+        A = Math.floor(a); // 总天数的整数部分
+        b = (a - A) * 24; // 总小时数
+        B = Math.floor(b); // 总小时数的整数部分
+        c = (b - B) * 60; // 总分钟数
+        C = Math.floor((b - B) * 60); // 总分钟数的整数部分
+        D = Math.floor((c - C) * 60); // 总秒数
+        runtime_span.innerHTML = "⏱️勉强运行 <span class='runtime'>" + A + "天" + B + "小时" + C + "分" + D + "秒</span>";
+    }
+    show_runtime();
+</script>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
-</aside><div class='float-panel blur'>
+<div class="widgets">
+<widget class="widget-wrapper markdown"><div class="widget-header dis-select"><span class="name">🎉 嘿嘿抓到你啦</span></div><div class="widget-body fs14"><p><span id="welcome-info" style="font-family: LXGW WenKai Screen;"></span></p>
+</div></widget>
+</div></aside><div class='float-panel blur'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
   </button>
