@@ -1,6 +1,6 @@
 # Personal Blog - [channndd.github.io](https://channndd.github.io/)
 
-## English Version
+## English
 
 Welcome to my personal blog! This blog is built using [Hexo](https://hexo.io/) and hosted on [GitHub Pages](https://pages.github.com/).
 
@@ -12,7 +12,7 @@ Welcome to my personal blog! This blog is built using [Hexo](https://hexo.io/) a
 
 ---
 
-## 中文版
+## 中文
 
 欢迎访问我的个人博客！该博客使用 [Hexo](https://hexo.io/) 构建，并托管在 [GitHub Pages](https://pages.github.com/) 上。
 
