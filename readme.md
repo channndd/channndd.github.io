@@ -1,4 +1,4 @@
-# Personal Blog - [channndd.github.io](https://channndd.github.io/)
+# Personal Blog - [channndd.github.io](https://channndd.github.io/) & [channndd.pages.dev](https://channndd.pages.dev/)
 
 ## English
 
@@ -11,7 +11,7 @@ Welcome to my personal blog! This blog is built using [Hexo](https://hexo.io/) a
 - **Custom Themes**: Personalize the blog with custom Hexo themes and plugins.
 
 
-*If you want to use GitHub Pages and are a free user, then your GitHub repository must be set to public. GitHub Pages will generate the website from the public repository, and free users cannot use private repositories to host GitHub Pages.So you can choose to use Cloudflare Pages.*
+*If you want to use GitHub Pages and are a free user, then your GitHub repository must be set to public. GitHub Pages will generate the website from the public repository, and free users cannot use private repositories to host GitHub Pages.So if you have privacy concerns, you can choose to use Cloudflare Pages*
 
 ---
 
