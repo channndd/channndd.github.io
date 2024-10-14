@@ -489,10 +489,10 @@ html {
 <!-- optional -->
 
   <script type="module">
-  const el = document.querySelector("#comments #utterances");
-  util.viewportLazyload(el, load_utterances, false);
+  const el = document.querySelector('#comments #beaudar');
+  util.viewportLazyload(el, load_beaudar, false);
 
-  function load_utterances() {
+  function load_beaudar() {
     if (!el) return;
     try {
       el.innerHTML = '';
@@ -500,7 +500,7 @@ html {
       console.error(error);
     }
     const script = document.createElement('script');
-    script.src = 'https://utteranc.es/client.js';
+    script.src = 'https://beaudar.lipk.org/client.js';
     script.async = true;
     for (const key of Object.keys(el.attributes)) {
       const attr = el.attributes[key];
