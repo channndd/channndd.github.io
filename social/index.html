@@ -20,15 +20,15 @@
   <title>test - Channn</title>
 
   
-    <meta name="description" content="Channn&#39;s blog">
+    <meta name="description" content="body, html {         margin: 0;         padding: 0;         height: 100%;         overflow: hidden;         font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, A">
 <meta property="og:type" content="website">
 <meta property="og:title" content="test">
 <meta property="og:url" content="https://channndd.github.io/social/index.html">
 <meta property="og:site_name" content="Channn">
-<meta property="og:description" content="Channn&#39;s blog">
+<meta property="og:description" content="body, html {         margin: 0;         padding: 0;         height: 100%;         overflow: hidden;         font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, A">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-09-19T02:53:15.213Z">
-<meta property="article:modified_time" content="2024-09-19T02:53:15.213Z">
+<meta property="article:published_time" content="2025-01-21T08:09:44.564Z">
+<meta property="article:modified_time" content="2025-01-21T08:09:44.564Z">
 <meta property="article:author" content="chanyoung">
 <meta name="twitter:card" content="summary">
   
@@ -85,7 +85,119 @@
     </div>
     
   </div>
-  </div><article class="md-text content"></article>
+  </div><article class="md-text content"><style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: #f4f4f9;
+    }
+    #game-area {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #game-canvas {
+        background-color: #f2f2f7;
+        border: 1px solid #d1d1d6;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    #score, #time-remaining, #accuracy, #pause-button, #fullscreen-button {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        pointer-events: none;
+    }
+    #score { top: 20px; left: 20px; }
+    #time-remaining { top: 20px; right: 20px; }
+    #accuracy { top: 80px; left: 20px; }
+    #pause-button, #fullscreen-button {
+        cursor: pointer;
+        background-color: #007aff;
+        color: white;
+        pointer-events: auto;
+    }
+    #pause-button { top: 20px; left: 50%; transform: translateX(-50%); }
+    #fullscreen-button { top: 80px; right: 20px; }
+    #controls {
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .control-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .group-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 8px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #007aff;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    button:hover {
+        background-color: #005bb5;
+        transform: translateY(-2px);
+    }
+    button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.5);
+    }
+    #start-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+    .hidden {
+        display: none !important;
+    }
+    .slider {
+        width: 100%;
+    }
+    .slider-value {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    #background-color {
+        width: 100%;
+    }
+</style>
+
+<script src="/js/aiming-game.js"></script></article>
 
 
 
